@@ -1,6 +1,7 @@
 {
     "name": "mautic/composer-plugin",
     "type": "composer-plugin",
+    "description": "",
     "license": "MIT",
     "autoload": {
         "psr-4": {"Mautic\\Composer\\": "src/"}
@@ -9,9 +10,9 @@
         "class": "Mautic\\Composer\\InstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "^1.0"
+        "composer-plugin-api": "^2.0"
     },
     "require-dev": {
-        "composer/composer": "^1.5"
+        "composer/composer": "^2.0"
     }
 }
